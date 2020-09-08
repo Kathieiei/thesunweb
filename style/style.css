@@ -1,0 +1,766 @@
+@font-face {
+    font-family: 'fc_lamoon_regular';
+    src: url('../font/fc_lamoon_regular_ver_1.00-webfont.woff2') format('woff2'),
+         url('../font/fc_lamoon_regular_ver_1.00-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'SOV_Thanamas';
+    src: url('../font/sov_thanamas-webfont.woff2') format('woff2'),
+         url('../font/sov_thanamas-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+#wraper{
+    width: 1280px;
+    height: 1307px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    width: 1280px;
+    height: 800px;
+    background-image: url("../images/s1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menubar{
+    width: 1280px;
+    height: 120px;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    z-index: 2;
+}
+#imglogo{
+    width: 404px;
+    height: 571px;
+    
+}
+.box_imglogo{
+    margin-left: 50px;
+    margin-top: -200px;
+    float: left;
+}
+.h{
+    font-family: fc_lamoon_regular;
+    font-size: 30px;
+    float: left;
+    margin-top: 35px;
+    margin-left: -50px;
+    color: #000;
+}
+    
+.h:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.lo{
+    font-family: fc_lamoon_regular;
+    font-size: 30px;
+    float: left;
+    margin-top: 35px;
+    color: #000;
+}
+.lo:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.ab{
+    font-family: fc_lamoon_regular;
+    font-size: 30px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+    color: #000;
+
+}
+.ab:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.fo{
+    font-family: fc_lamoon_regular;
+    font-size: 30px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+    color: #000;
+
+}
+.fo:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.sa{
+    font-family: fc_lamoon_regular;
+    font-size: 30px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+    color: #000;
+
+}
+.sa:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.bu{
+    font-family: fc_lamoon_regular;
+    font-size: 30px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+    color: #000;
+
+}
+.bu:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.kom{
+    width: 595px;
+    height: 334px;
+    align-self: center;
+    margin-left: 350px;
+    margin-top: 225px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 84px; 
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+
+}
+.iconn{
+    font-size: 40px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 100px;
+    color: #3A0000;
+}
+.part2{
+    width: 1280px;
+    height: 507px;
+     background-image: linear-gradient(#000000, #462902);
+     position: absolute;
+    z-index: 2;
+}
+.img{
+    position: absolute;
+    z-index: 3;
+}
+h1{
+    text-align: center;
+    font-size: 62px; 
+    color: #fff;
+}
+.hed1{
+    width: 595px;
+    align-self: center;
+    margin-left: 140px;
+    margin-top: 120px;
+    text-align: center;
+    font-family: fc_lamoon_regular;
+    font-size: 62px; 
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+}
+.cont1{
+    width: 595px;
+    align-self: center;
+    margin-left: 140px;
+    margin-top: 230px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: fc_lamoon_regular;
+    font-size: 24px; 
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+}
+.button1{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFCACA;
+    border: 0;
+    color: #3A0000;
+    font-size: 20px; 
+    font-family: fc_lamoon_regular;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.3s;
+    margin:30px 50px 0 60px;
+    margin-top: 80px;
+
+}
+.button1:hover{
+-webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+
+
+.part3{
+    width: 1280px;
+    height: 550px;
+    margin-left: 120px;
+    background-image: url("../images/bg2.png");
+     position: absolute;
+    z-index: 2;
+}
+.hed2{
+    width: 595px;
+    align-self: center;
+    margin-left: 500px;
+    margin-top: 170px;
+    text-align: center;
+    font-family: fc_lamoon_regular;
+    font-size: 62px; 
+    color: #3A0000;
+    position: absolute;
+    z-index: 4;
+}
+.cont2{
+    width: 510px;
+    height: 208px;
+    background-color: rgba(255,255,255,0.5);
+    align-self: center;
+    margin-left: 540px;
+    margin-top: 150px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: fc_lamoon_regular;
+    font-size: 24px; 
+    color: #3A0000;
+    position: absolute;
+    z-index: 3;
+}
+
+.button2{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #70542F;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 20px; 
+    font-family: fc_lamoon_regular;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.3s;
+    margin:30px 50px 0 60px;
+    margin-top: 40px;
+
+}
+.button2:hover{
+-webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+
+.part4{
+    width: 1280px;
+    height: 732px;
+    margin-top: 550px;
+    /*margin-left: 120px;*/
+    background-color: #6B563A;
+     position: absolute;
+    z-index: 2;
+}
+
+.hed3{
+    width: 595px;
+    align-self: center;
+    margin-left: 50px;
+    margin-top: 110px;
+    text-align: center;
+    font-family: fc_lamoon_regular;
+    font-size: 62px; 
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 4;
+}
+.c1{
+    width: 325px;
+    height: 325px;
+    background-image: url("../images/cc2.jpg");
+    margin-top: 300px;
+    margin-left: 150px;
+    border-radius: 360px;
+    float: left;
+}
+.c2{
+    width: 325px;
+    height: 325px;
+    background-image: url("../images/cc3.jpg");
+    margin-top: 300px;
+    margin-left: 30px;
+    border-radius: 360px;
+    float: left;
+}
+.c3{
+    width: 325px;
+    height: 325px;
+    background-image: url("../images/cc1.jpg");
+    margin-top: 300px;
+    margin-left: 30px;
+    border-radius: 360px;
+    float: left;
+}
+.cp1{
+    background-color: rgba(0,0,0,0.5);
+    font-family: fc_lamoon_regular;
+    font-size: 50px; 
+    color: #FFFFFF;
+     margin-left: 50px;
+     margin-top: 150px;
+}
+.cp2{
+    background-color: rgba(0,0,0,0.5);
+    font-family: fc_lamoon_regular;
+    font-size: 50px; 
+    color: #FFFFFF;
+     margin-left: 100px;
+     margin-top: 150px;
+}
+.cp3{
+    background-color: rgba(0,0,0,0.5);
+    font-family: fc_lamoon_regular;
+    font-size: 50px; 
+    color: #FFFFFF;
+     margin-left: 100px;
+     margin-top: 150px;
+}
+.c1:hover{
+-webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.c2:hover{
+-webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.c3:hover{
+-webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.part5{
+    width: 1280px;
+    height: 1020px;
+    margin-top: 1282px;
+     background-image: linear-gradient(#481915, #0E0504);
+     position: absolute;
+    z-index: 2;
+}
+.hed4{
+    width: 595px;
+    align-self: center;
+    margin-top: 80px;
+    text-align: center;
+    font-family: fc_lamoon_regular;
+    font-size: 62px; 
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 4;
+}
+.ch1{
+    margin-top: 200px;
+    margin-left: 150px;
+    float: left;
+}
+.ch2{
+    margin-top: 200px;
+    margin-left: 15px;
+    float: left;
+}
+.j1{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFCACA;
+    border: 0;
+    color: #3A0000;
+    font-size: 20px; 
+    font-family: fc_lamoon_regular;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.3s;
+    margin-left: -180px;
+    margin-top: 525px;;
+    position: absolute;
+    z-index: 4;
+}
+.j2{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFCACA;
+    border: 0;
+    color: #3A0000;
+    font-size: 20px; 
+    font-family: fc_lamoon_regular;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.3s;
+    margin-left: -180px;
+    margin-top: 525px;
+    position: absolute;
+    z-index: 4;
+}
+.ch3{
+    margin-top: 200px;
+    margin-left: 15px;
+    float: left;
+}
+.j3{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFCACA;
+    border: 0;
+    color: #3A0000;
+    font-size: 20px; 
+    font-family: fc_lamoon_regular;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.3s;
+    margin-left: -180px;
+    margin-top: 525px;
+    position: absolute;
+    z-index: 4;
+}
+.cox3:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.ch4{
+    margin-top: 200px;
+    margin-left: 15px;
+    float: left;
+}
+.j4{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFCACA;
+    border: 0;
+    color: #3A0000;
+    font-size: 20px; 
+    font-family: fc_lamoon_regular;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.3s;
+    margin-left: -180px;
+    margin-top: 525px;
+    position: absolute;
+    z-index: 4;
+}
+.cox4:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.cox1:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.ch5{
+    margin-top: 150px;
+    margin-left: 150px;
+    float: left;
+}
+.j5{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFCACA;
+    border: 0;
+    color: #3A0000;
+    font-size: 20px; 
+    font-family: fc_lamoon_regular;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.3s;
+    margin-left: -950px;
+    margin-top: 950px;;
+    position: absolute;
+    z-index: 4;
+}
+.cox5:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.ch6{
+    margin-top: 150px;
+    margin-left: 15px;
+    float: left;
+}
+.j6{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFCACA;
+    border: 0;
+    color: #3A0000;
+    font-size: 20px; 
+    font-family: fc_lamoon_regular;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.3s;
+    margin-left: -700px;
+    margin-top: 950px;;
+    position: absolute;
+    z-index: 4;
+}
+.cox6:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.ch7{
+    margin-top: 150px;
+    margin-left: 15px;
+    float: left;
+}
+.j7{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFCACA;
+    border: 0;
+    color: #3A0000;
+    font-size: 20px; 
+    font-family: fc_lamoon_regular;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.3s;
+    margin-left: -450px;
+    margin-top: 950px;;
+    position: absolute;
+    z-index: 4;
+}
+.cox7:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.ch8{
+    margin-top: 150px;
+    margin-left: 15px;
+    float: left;
+}
+.j8{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFCACA;
+    border: 0;
+    color: #3A0000;
+    font-size: 20px; 
+    font-family: fc_lamoon_regular;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.3s;
+    margin-left: -200px;
+    margin-top: 950px;;
+    position: absolute;
+    z-index: 4;
+}
+.cox8:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.cox2:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+.j1:hover{
+    background-color: #70542F;
+    color: #FFFFFF; 
+    transition: all 0.5s
+}
+.j2:hover{
+    background-color: #70542F;
+    color: #FFFFFF; 
+    transition: all 0.5s
+}
+.j3:hover{
+    background-color: #70542F;
+    color: #FFFFFF; 
+    transition: all 0.5s
+}
+.j3:hover{
+    background-color: #70542F;
+    color: #FFFFFF; 
+    transition: all 0.5s
+}
+.j4:hover{
+    background-color: #70542F;
+    color: #FFFFFF; 
+    transition: all 0.5s
+}
+.j5:hover{
+    background-color: #70542F;
+    color: #FFFFFF; 
+    transition: all 0.5s
+}
+.j6:hover{
+    background-color: #70542F;
+    color: #FFFFFF; 
+    transition: all 0.5s
+}
+.j7:hover{
+    background-color: #70542F;
+    color: #FFFFFF; 
+    transition: all 0.5s
+}
+.j8:hover{
+    background-color: #70542F;
+    color: #FFFFFF; 
+    transition: all 0.5s
+}
+.part6
+{
+    margin-top: 2300px;
+  width: 1280px;
+    height: 195px; 
+    margin-left: 120px; 
+    background-color: #6B563A;
+}
+#imglogo2{
+    width: 150px;
+    height: 175px;
+    
+}
+.box_imglogo2{
+    margin-left: 120px;
+    margin-top: -10px;
+    float: left;
+}
+.con1{
+    font-family: fc_lamoon_regular;
+    font-size: 18px; 
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 3;
+    float: left;
+    margin-top:-130px; 
+    margin-left: 330px;
+}
+.con2{
+    font-family: fc_lamoon_regular;
+    font-size: 18px; 
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 3;
+    float: left;
+    margin-top:-130px; 
+    margin-left: 480px;
+}
+.con3{
+    font-family: fc_lamoon_regular;
+    font-size: 18px; 
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 3;
+    float: left;
+    margin-top:-100px; 
+    margin-left: 680px;
+}
